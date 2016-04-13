@@ -1,0 +1,27 @@
+﻿@model TripGallery.MVCClient.Models.PicturesIndexViewModel
+
+@{
+    ViewBag.Title = "Pictures";
+}
+
+<h2 class="leftMarginDefault">Pictures</h2>
+
+ 
+    <div class="btn btn-default bottomMarginDefault leftMarginDefault">@Html.ActionLink("Add a Picture", "Create", new { tripId = @Model.TripId })</div>
+ 
+
+<div class="container">
+    @foreach (var item in Model.Pictures)
+    {
+        <div class="col-md-3 bottomMarginDefault">
+            <div>@item.Title</div>
+            <img class="tripImage img-rounded" src="@item.Uri" />
+            <div>
+ 
+                    @Html.ActionLink("Delete picture", "Delete", "Pictures",
+                    new { tripId = item.TripId, pictureId = item.Id }, null)
+             
+            </div>
+        </div>
+    }
+</div> 

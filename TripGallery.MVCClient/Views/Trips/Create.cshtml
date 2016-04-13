@@ -1,0 +1,60 @@
+﻿@model TripGallery.MVCClient.Models.TripCreateViewModel
+
+@{
+    ViewBag.Title = "Add a Trip";
+}
+
+<h2 class="leftMarginSmaller">Add a Trip</h2>
+
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new { enctype = "multipart/form-data" })) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal leftMarginDefault">     
+        <div class="form-group">
+            <div  >
+                Your trip's name
+            </div>
+            <div >
+                @Html.EditorFor(model => model.Trip.Name, new { htmlAttributes = new { @class = "form-control" } }) 
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div>
+                A description of your trip
+            </div>
+            <div>
+                @Html.EditorFor(model => model.Trip.Description, new { htmlAttributes = new { @class = "form-control" } }) 
+            </div>
+        </div>
+ 
+        <div class="form-group">
+            <div>Should this trip be public?</div>
+            <div>
+                <div class="checkbox" style="margin-left:20px;">
+                    @Html.EditorFor(model => model.Trip.IsPublic) 
+                </div>
+            </div>
+        </div>
+         
+        <div class="form-group">
+            <div>Choose an image for this trip</div>
+            <div>
+                    @Html.TextBoxFor(model => model.MainImage, new { type = "file",  accept="image/jpeg" }) 
+            </div>
+        </div> 
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Add" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

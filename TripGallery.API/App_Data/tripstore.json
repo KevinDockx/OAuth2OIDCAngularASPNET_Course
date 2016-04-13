@@ -1,0 +1,136 @@
+[
+    {
+        "Id": "577af86f-3a34-4fe0-9921-393eb3f3fc1a",
+        "Name": "Barcelona Citytrip",
+        "Description": "A Week in Barcelona",
+        "IsPublic": true,
+        "MainPictureUri": "images/461023_3614625087174_2001310148_o.jpg",
+        "OwnerId": "https://tripcompanysts/identityb05d3546-6ca8-4d32-b95c-77e94d705ddf",
+        "Pictures": [ 
+            {
+                "Id": "d02fbcb2-3281-4933-9e3b-e67bdbcd0f40",
+                "TripId": "577af86f-3a34-4fe0-9921-393eb3f3fc1a",
+                "Title": "MOMA",
+                "Uri": "images/465079_3614723209627_467364041_o.jpg",
+                "OwnerId": "https://tripcompanysts/identityb05d3546-6ca8-4d32-b95c-77e94d705ddf"
+            },
+            {
+                "Id": "d1d72348-0b07-4469-978b-e9359df67d8b",
+                "TripId": "577af86f-3a34-4fe0-9921-393eb3f3fc1a",
+                "Title": "Gaudi Casa Mila",
+                "Uri": "images/467772_3614649447783_135439700_o.jpg",
+                "OwnerId": "https://tripcompanysts/identitybb61e881-3a49-42a7-8b62-c13dbe102018"
+            },
+            { "Id": "b8792b58-940f-4d17-8e08-b1089f03e372", "TripId": "577af86f-3a34-4fe0-9921-393eb3f3fc1a", "Title": "Sagrada Familia", "Uri": "images/468412_3614694528910_1928514412_o.jpg", "OwnerId": "https://tripcompanysts/identitybb61e881-3a49-42a7-8b62-c13dbe102018" },
+            { "Id": "3fae8f45-4a55-4653-bb59-a4f2a06eb9f4", "TripId": "577af86f-3a34-4fe0-9921-393eb3f3fc1a", "Title": "La Boqueria", "Uri": "images/476865_3614613286879_254524626_o.jpg", "OwnerId": "https://tripcompanysts/identityb05d3546-6ca8-4d32-b95c-77e94d705ddf" }
+        ]
+    },
+    {
+        "Id": "2625fb32-f391-4c8a-a521-621b944304b3",
+        "Name": "Paris Citytrip",
+        "Description": "A weekend in Paris",
+        "IsPublic": false,
+        "MainPictureUri": "images/f319e4b3-fe49-461f-9fb1-6fbd3797863a.jpg",
+        "OwnerId": "https://tripcompanysts/identityb05d3546-6ca8-4d32-b95c-77e94d705ddf",
+        "Pictures": [
+            {
+                "Id": "2aa71808-b4d8-449d-9b58-c69e1acc2332",
+                "TripId": "2625fb32-f391-4c8a-a521-621b944304b3",
+                "Title": "Little locks",
+                "Uri": "images/33530b95-72a2-4992-a42d-8ef28425b21c.jpg",
+                "OwnerId": "https://tripcompanysts/identityb05d3546-6ca8-4d32-b95c-77e94d705ddf"
+            },
+            {
+                "Id": "c811fce7-c561-4ef4-84a3-634c2bedfd1f",
+                "TripId": "2625fb32-f391-4c8a-a521-621b944304b3",
+                "Title": "Church detail",
+                "Uri": "images/95b67298-a5a7-4ccb-a31f-e7da2714a084.jpg",
+                "OwnerId": "https://tripcompanysts/identityb05d3546-6ca8-4d32-b95c-77e94d705ddf"
+            }
+
+        ]
+    },
+    {
+        "Id": "7a351ed4-34b1-4c2d-828b-44c1d848fa18",
+        "Name": "Microsoft Training in Copenhagen",
+        "Description": "A business trip to Copenhagen",
+        "IsPublic": false,
+        "MainPictureUri": "images/737ad9dc-852d-4226-bd8c-0c1988e8cd4e.jpg",
+        "OwnerId": "https://tripcompanysts/identityb05d3546-6ca8-4d32-b95c-77e94d705ddf",
+        "Pictures": [
+            {
+                "Id": "c5087fd4-8b64-41aa-be05-66935e187032",
+                "TripId": "7a351ed4-34b1-4c2d-828b-44c1d848fa18",
+                "Title": "The harbor",
+                "Uri": "images/08008f79-b09f-4177-ab20-749e17d19192.jpg",
+                "OwnerId": "https://tripcompanysts/identityb05d3546-6ca8-4d32-b95c-77e94d705ddf"
+            },
+
+            {
+                "Id": "96d68c1b-d4b1-46f3-a6b1-bc4da772f0a3",
+                "TripId": "7a351ed4-34b1-4c2d-828b-44c1d848fa18",
+                "Title": "A view of the city",
+                "Uri": "images/f191c702-8186-4083-bd4f-d08598f133a6.jpg",
+                "OwnerId": "https://tripcompanysts/identityb05d3546-6ca8-4d32-b95c-77e94d705ddf"
+            }
+
+        ]
+    },
+    {
+        "Id": "dd608132-99d5-47c6-9933-9d1cdad6e692",
+        "Name": "Berlin Citytrip",
+        "Description": "A trip to Berlin",
+        "IsPublic": false,
+        "MainPictureUri": "images/7f218df6-a7b7-46d1-9f2a-ad3b46f2d9d4.jpg",
+        "OwnerId": "https://tripcompanysts/identityb05d3546-6ca8-4d32-b95c-77e94d705ddf",
+        "Pictures": [
+            {
+                "Id": "dec63de2-c5bb-488a-add8-8276bf0dbe9f",
+                "TripId": "dd608132-99d5-47c6-9933-9d1cdad6e692",
+                "Title": "Checkpoint Charlie",
+                "Uri": "images/cd139111-c82e-4bc8-9f7d-43a1059bfe73.jpg",
+                "OwnerId": "https://tripcompanysts/identityb05d3546-6ca8-4d32-b95c-77e94d705ddf"
+            } 
+        ]
+    },
+    {
+        "Id": "d584a927-11c2-488a-a29c-54bfcac7e4a6",
+        "Name": "San Francisco",
+        "Description": "Trip to San Francisco and Napa Valley",
+        "IsPublic": true,
+        "MainPictureUri": "images/e9edd05d-5974-4e6e-94f5-78716454296c.jpg",
+        "OwnerId": "https://tripcompanysts/identityb05d3546-6ca8-4d32-b95c-77e94d705ddf",
+        "Pictures": [
+            {
+                "Id": "81d6f305-25a2-4041-8792-ae87670e5d29",
+                "TripId": "d584a927-11c2-488a-a29c-54bfcac7e4a6",
+                "Title": "City view",
+                "Uri": "images/8d351bbb-f760-4b56-9d4e-e8d61619bf70.jpg",
+                "OwnerId": "https://tripcompanysts/identitybb61e881-3a49-42a7-8b62-c13dbe102018"
+            } 
+        ]
+    },
+    {
+        "Id": "5e2483f3-b67a-4a7b-ba0f-95bb586c8df6",
+        "Name": "One Month in Brazil",
+        "Description": "Travelling through Brazil for a month",
+        "IsPublic": true,
+        "MainPictureUri": "images/414780_3615532069848_2102572639_o.jpg",
+        "OwnerId": "https://tripcompanysts/identityb05d3546-6ca8-4d32-b95c-77e94d705ddf",
+        "Pictures": [
+            {
+                "Id": "74d7cdaa-868e-4bd9-af1d-8cf43580d39b",
+                "TripId": "5e2483f3-b67a-4a7b-ba0f-95bb586c8df6",
+                "Title": "Pantanal",
+                "Uri": "images/414780_3615532069848_2102572639_o.jpg",
+                "OwnerId": "https://tripcompanysts/identitybb61e881-3a49-42a7-8b62-c13dbe102018"
+            },
+            
+            { "Id": "314c0103-72aa-48da-9833-e6edbb681672", "TripId": "5e2483f3-b67a-4a7b-ba0f-95bb586c8df6", "Title": "Parque Diamantina", "Uri": "images/456386_3615755555435_984578638_o.jpg", "OwnerId": "https://tripcompanysts/identitybb61e881-3a49-42a7-8b62-c13dbe102018" },
+            { "Id": "3363dc5e-da80-49a6-9025-e43741dd9d7d", "TripId": "5e2483f3-b67a-4a7b-ba0f-95bb586c8df6", "Title": "Cristo Redentor, Rio de Janeiro", "Uri": "images/459797_3615642312604_1370618209_o.jpg", "OwnerId": "https://tripcompanysts/identitybb61e881-3a49-42a7-8b62-c13dbe102018" },
+            { "Id": "fe3d7104-ccdd-46af-91d5-e7444b9bb66a", "TripId": "5e2483f3-b67a-4a7b-ba0f-95bb586c8df6", "Title": "Bird Detail", "Uri": "images/466664_3615515869443_317468512_o.jpg", "OwnerId": "https://tripcompanysts/identitybb61e881-3a49-42a7-8b62-c13dbe102018" },
+            { "Id": "b25ad0e4-b166-4c0e-9781-9686ae0c7f58", "TripId": "5e2483f3-b67a-4a7b-ba0f-95bb586c8df6", "Title": "Parrot Detail", "Uri": "images/466699_3615599471533_1196606751_o.jpg", "OwnerId": "https://tripcompanysts/identitybb61e881-3a49-42a7-8b62-c13dbe102018" },
+            { "Id": "5968453c-8d92-4e40-8640-baa4299100bb", "TripId": "5e2483f3-b67a-4a7b-ba0f-95bb586c8df6", "Title": "Rio de Janeiro", "Uri": "images/468942_3615644352655_1819977785_o.jpg", "OwnerId": "https://tripcompanysts/identityb05d3546-6ca8-4d32-b95c-77e94d705ddf" },
+            { "Id": "aca9d1ce-fb24-4c95-b3e8-9dd84f4be7ac", "TripId": "5e2483f3-b67a-4a7b-ba0f-95bb586c8df6", "Title": "Iguacu", "Uri": "images/477325_3615590111299_1614737679_o.jpg", "OwnerId": "https://tripcompanysts/identityb05d3546-6ca8-4d32-b95c-77e94d705ddf" }
+        ]
+    } ]

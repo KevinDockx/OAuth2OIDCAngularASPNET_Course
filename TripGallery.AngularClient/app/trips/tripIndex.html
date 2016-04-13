@@ -1,0 +1,52 @@
+﻿
+    <h2 class="leftMarginDefault">My Trip Gallery</h2>
+
+    <!-- Button should result in error when not logged in (we WILL show it, just to ensure we can see
+        what happens/goes on)-->
+
+    <div class="btn btn-default leftMarginDefault bottomMarginDefault">
+        <a href="#/trips/create">Add a Trip</a>
+    </div>
+ 
+    <div class="container">
+     
+        <div class="col-md-6 bottomMarginDefault" ng-repeat="trip in vm.trips">
+
+            <div class="pull-left rightMarginDefault">
+                <img class="tripImage img-circle" ng-src="{{trip.mainPictureUri}}" />
+                <div ng-if="trip.isPublic === true" class="privacyStyle">
+                    <span class="glyphicon glyphicon-eye-open"></span>
+                    <span>Public trip</span>
+                </div>
+               
+                <div ng-if="trip.isPublic === false" class="privacyStyle">
+                    <span class="glyphicon glyphicon-eye-close"></span>
+                    <span>Private trip</span>
+                </div>
+                
+            </div>
+            <div>
+                <div class="h3">{{trip.name}}</div>
+                <div>{{trip.description}}</div>
+
+                <div>                 
+                        <a href=""
+                           ng-if="trip.isPublic === false"
+                           ng-click="vm.switchPrivacyLevel(trip.id)">
+                            Make public
+                        </a>
+                        <a href=""
+                           ng-if="trip.isPublic === true"
+                           ng-click="vm.switchPrivacyLevel(trip.id)">
+                            Make private
+                        </a>
+                        |
+                    <a ng-href="#/trips/{{trip.id}}/pictures">Pictures</a>
+                    | <a ng-href="#/trips/{{trip.id}}/createalbum">Create album</a>                   
+                </div>
+            </div> 
+                
+        </div>
+            
+    </div>
+

@@ -1,0 +1,24 @@
+﻿
+    <h2 class="leftMarginDefault">Pictures</h2>
+
+
+    <div ng-if="!vm.mgr.expired" class="btn btn-default leftMarginDefault bottomMarginDefault">
+    <a href="#/trips/{{vm.tripId}}/pictures/create">Add a Picture</a>
+</div>
+     
+    <div class="container">
+        <div ng-repeat="picture in vm.pictures">
+ 
+            <div class="col-md-3 bottomMarginDefault">
+                <div>{{picture.title}}</div>
+                <img class="tripImage img-rounded" ng-src="{{picture.uri}}" />
+                <div>
+                    <a href=""
+                       ng-click="vm.deletePicture(picture.tripId, picture.id)">
+                        Delete picture
+                    </a>                 
+                </div>
+            </div>
+        
+        </div>
+    </div>

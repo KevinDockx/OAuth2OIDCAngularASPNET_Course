@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Trip Gallery</title>
+
+    <!-- CSS -->
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/site.css" rel="stylesheet" />
+</head>
+
+<body ng-app="tripGallery">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div><img src="angularlogo.png" class="headerLogo" /></div>
+            <div class="navbar-header">
+                <a href="#/trips/" class="navbar-brand">Trips</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                                 
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container body-content">
+        <!-- ngRoute view -->
+        <div ng-view></div>
+
+        <hr />
+        <footer>
+            <p>&copy; My Trip Gallery</p>
+        </footer>
+    </div>
+
+    <!-- Angular & app script  -->
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-resource.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="app/app.js"></script>
+
+    <!-- Services -->
+    <script src="common/common.services.js"></script>
+    <script src="common/tripResource.js"></script>
+    <script src="common/tripForCreationResource.js"></script>
+    <script src="common/pictureResource.js"></script>
+    <script src="common/pictureForCreationResource.js"></script>
+
+    <!-- Controllers -->
+    <script src="app/trips/tripIndexController.js"></script>
+    <script src="app/trips/tripCreateController.js"></script>
+    <script src="app/trips/tripAlbumController.js"></script>
+    <script src="app/pictures/pictureIndexController.js"></script>
+    <script src="app/pictures/pictureCreateController.js"></script>
+ 
+</body>
+
+    </html>

@@ -1,0 +1,65 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+.tripImage {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+
+.defaultButton {
+    width: 100px;
+    height: 50px;
+}
+
+.bottomMarginDefault {
+    margin-bottom: 30px;
+}
+
+.rightMarginDefault {
+    margin-right: 30px;
+}
+
+.leftMarginDefault {
+    margin-left: 30px;
+}
+
+.leftMarginSmaller {
+    margin-left: 15px;
+}
+
+.headerLogo {
+    width: 46px;
+    float: left;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+.privacyStyle {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 60px;
+}
